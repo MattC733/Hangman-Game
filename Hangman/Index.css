@@ -1,0 +1,85 @@
+* {
+    background: #010308;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head {
+    display: flex;
+    text-align: justify;
+    font-size: xx-large;
+    margin-left: 3%;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+
+.score {
+    text-align: end;
+    margin-right: 15%;
+    margin-left: 3%;
+}
+
+.IMGContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stickmanIMG {
+    max-width: 100px;
+    display: grid;
+}
+
+.underlines {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btnsA-G {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.btnsH-N {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.btnsO-U {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.btnsV-Z {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+button {
+    border-radius: 20%;
+    border-color: blue;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: blue;
+}
